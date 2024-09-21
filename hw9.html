@@ -6,7 +6,7 @@
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.20.8"></script>
 </head>
 <body>
-  <div id="vis"/>
+  <div id="vis">
   <script>
     const spec ={
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
@@ -23,7 +23,7 @@
         "lookup": "properties.NAME",
         "from": {
           "data": {
-            "url": "../data/hw9.csv",
+            "url": "https://raw.githubusercontent.com/RoshaOwO/homework9/8dd70d64a327342119e958d8e026aa0c92e40d6b/hw9.csv",
             "format": {"type": "csv"}
           },
           "key": "Country",
